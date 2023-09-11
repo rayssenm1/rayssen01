@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestion de Données</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Gestion de Données</h1>
+    <div id="form-container">
+        <h2>Ajouter / Modifier</h2>
+        <form id="data-form">
+            <input type="number" id="num-input" placeholder="Numéro">
+            <input type="text" id="nom-input" placeholder="Nom">
+            <input type="text" id="prenom-input" placeholder="Prénom">
+            <input type="tel" id="telephone-input" placeholder="Téléphone">
+            <input type="text" id="cin-input" placeholder="CIN">
+            <input type="text" id="adresse-input" placeholder="Adresse">
+            <button type="submit" id="submit-button">Ajouter / Modifier</button>
+        </form>
+    </div>
+    <div id="data-list">
+        <h2>Liste des Données</h2>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Numéro</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Téléphone</th>
+                    <th>CIN</th>
+                    <th>Adresse</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Les données seront affichées ici -->
+            </tbody>
+        </table>
+    </div>
+    <div id="search-container">
+        <h2>Rechercher</h2>
+        <input type="text" id="search-input" placeholder="Recherche">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
